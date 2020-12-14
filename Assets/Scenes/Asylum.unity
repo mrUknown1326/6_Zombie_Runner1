@@ -213,6 +213,26 @@ PrefabInstance:
       propertyPath: ammoAmount
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 6083546874002943102, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[0].ammoAmount
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083546874002943102, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083546874002943102, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoAmount
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083546874002943102, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[2].ammoAmount
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 6478247754178705621, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_IsActive
@@ -228,16 +248,51 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 2060220745}
+    - target: {fileID: 3859838555376702165, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3859838555376702165, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: range
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3859838555376702165, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: damage
+      value: 46
+      objectReference: {fileID: 0}
     - target: {fileID: 7237551401667956264, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: ammoText
+      value: 
+      objectReference: {fileID: 2060220745}
+    - target: {fileID: 7237551401667956264, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: range
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237551401667956264, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237551401667956264, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: timeBetweenShots
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9018855458138398560, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 2060220745}
     - target: {fileID: 9018855458138398560, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
-      propertyPath: ammoText
-      value: 
-      objectReference: {fileID: 2060220745}
+      propertyPath: damage
+      value: 23
+      objectReference: {fileID: 0}
     - target: {fileID: 2896374041721253652, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: impactCanvas
